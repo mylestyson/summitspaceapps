@@ -9,7 +9,7 @@ height = 721
 brightness = 255 / 100
 
 img = Image.new('RGB', (width, height))
-
+currentFileName = "test"
 
 count = 0
 
@@ -34,16 +34,12 @@ def csvToImage(file):
                 c = int(val)
                 color = (c,c,c)
                 img.putpixel( (i,j), color )
-    img.save("images2/" + str(count) + ".png")
+
+    img.save(os.path.join("artic-data", "images", currentFileName + ".png"))
     count = count + 1
-            
-
-for filename in os.listdir(os.getcwd()+"/data"):
-    if filename.endswith(".csv"): 
-        csvToImage("data/"+filename)
 
 
-        
-
-
-        
+for filename in os.listdir(os.path.join("artic-data", "csv")):
+    if filename.endswith(".csv"):
+        currentFileName = filename.strip(".csv")
+        csvToImage(os.path.join("artic-data", "csv", filename))
