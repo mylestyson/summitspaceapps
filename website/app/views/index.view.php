@@ -11,7 +11,7 @@
     <div class="col">
       <div class="starter-template">
         <p class="lead">Project Icen-Berg is an entry to the 2018 NASA Space Apps Challenge hosted by the C4DI in Hull.
-        <p class="lead">Created by team Summit, comprised of members of Summit Ltd (James Dewes, Ben Wooff) and undergraduate computer science students (Rhys Tyson, Myles Tyson) from the University of Hull.</p>
+        <p class="lead">Created by Team Summit, comprised of members of Summit Ltd (James Dewes, Ben Wooff) and undergraduate computer science students (Rhys Tyson, Myles Tyson) from the University of Hull.</p>
       </div>
       <hr>
     </div>
