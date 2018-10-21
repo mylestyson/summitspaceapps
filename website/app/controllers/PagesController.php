@@ -11,6 +11,10 @@ class PagesController
   {
     return view('about');
   }
+  public function twod_view()
+  {
+    return view('2d_view');
+  }
 
 
 }
