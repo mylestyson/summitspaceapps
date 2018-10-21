@@ -1,16 +1,27 @@
 <?php require('partials/head.php');?>
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
           <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-      
+          <div class="row">
+            <div class="col-md-5">
+              <h2>Artic</h2>
+              <img src="" alt="" id="imageOne" width="400px" height="400px">
+            </div>
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-5">
+              <h2>Antarctic</h2>
+              <img src="" alt="" id="imageTwo" width="400px" height="400px">
+            </div>
+          </div>
 
-          <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas>
+          <!-- <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas> -->
 
-          <h2>Section title</h2>
+          <!-- <h2>Section title</h2>
           <div class="table-responsive">
             <table class="table table-striped table-sm">
               <thead>
                 <tr>
-                  <th>Type </th>
+                  <th>#</th>
                   <th>Header</th>
                   <th>Header</th>
                   <th>Header</th>
@@ -25,104 +36,12 @@
                   <td>dolor</td>
                   <td>sit</td>
                 </tr>
-                <tr>
-                  <td>1,002</td>
-                  <td>amet</td>
-                  <td>consectetur</td>
-                  <td>adipiscing</td>
-                  <td>elit</td>
-                </tr>
-                <tr>
-                  <td>1,003</td>
-                  <td>Integer</td>
-                  <td>nec</td>
-                  <td>odio</td>
-                  <td>Praesent</td>
-                </tr>
-                <tr>
-                  <td>1,003</td>
-                  <td>libero</td>
-                  <td>Sed</td>
-                  <td>cursus</td>
-                  <td>ante</td>
-                </tr>
-                <tr>
-                  <td>1,004</td>
-                  <td>dapibus</td>
-                  <td>diam</td>
-                  <td>Sed</td>
-                  <td>nisi</td>
-                </tr>
-                <tr>
-                  <td>1,005</td>
-                  <td>Nulla</td>
-                  <td>quis</td>
-                  <td>sem</td>
-                  <td>at</td>
-                </tr>
-                <tr>
-                  <td>1,006</td>
-                  <td>nibh</td>
-                  <td>elementum</td>
-                  <td>imperdiet</td>
-                  <td>Duis</td>
-                </tr>
-                <tr>
-                  <td>1,007</td>
-                  <td>sagittis</td>
-                  <td>ipsum</td>
-                  <td>Praesent</td>
-                  <td>mauris</td>
-                </tr>
-                <tr>
-                  <td>1,008</td>
-                  <td>Fusce</td>
-                  <td>nec</td>
-                  <td>tellus</td>
-                  <td>sed</td>
-                </tr>
-                <tr>
-                  <td>1,009</td>
-                  <td>augue</td>
-                  <td>semper</td>
-                  <td>porta</td>
-                  <td>Mauris</td>
-                </tr>
               </tbody>
             </table>
-          </div>
+          </div> -->
         </main>
       </div>
     </div>
     <!-- Graphs -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
-        <script>
-          var ctx = document.getElementById("myChart");
-          var myChart = new Chart(ctx, {
-            type: 'line',
-            data: {
-              labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-              datasets: [{
-                data: [15339, 21345, 18483, 24003, 23489, 24092, 12034],
-                lineTension: 0,
-                backgroundColor: 'transparent',
-                borderColor: '#007bff',
-                borderWidth: 4,
-                pointBackgroundColor: '#007bff'
-              }]
-            },
-            options: {
-              scales: {
-                yAxes: [{
-                  ticks: {
-                    beginAtZero: false
-                  }
-                }]
-              },
-              legend: {
-                display: false,
-              }
-            }
-          });
-        </script>
+
 <?php require('partials/footer_slider.php');?>

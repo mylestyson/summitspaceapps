@@ -31,10 +31,14 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>  </head>
   <!--Footer slider JS-->
   <script>
+    var imgOne = document.getElementById("imageOne");
+    var imgTwo = document.getElementById("imageTwo");
     var slider = document.getElementById("myRange");
     var output = document.getElementById("date");
     var date = new Date(2009, 08, 17, 00, 00, 00, 00);
     var data = {"an":2210446,"ar":580541,"anurl":"https://icen-berg.space/images/arctic/NISE_SSMISF17_20090817.png","arurl":"https://icen-berg.space/images/antarctic/NISE_SSMISF17_20090817.png"};
+    imgOne.src = data.arurl;
+    imgTwo.src = data.anurl;
     output.innerHTML = date.toLocaleDateString(); // Display the default slider value
     // Update the current slider value (each time you drag the slider handle)
     slider.oninput = function() {
@@ -47,10 +51,14 @@
           if (this.readyState == 4 && this.status == 200) {
            //document.getElementById("demo").innerHTML = this.responseText;
             data = JSON.parse(this.responseText);
+            imgOne.src = data.arurl;
+            imgTwo.src = data.anurl;
           }
         };
         xhttp.open("GET", "data?date="+this.value, true);
         xhttp.send();
+
+
 
     }
   </script>
