@@ -37,8 +37,10 @@
     var output = document.getElementById("date");
     var date = new Date(2009, 08, 17, 00, 00, 00, 00);
     var data = {"an":2210446,"ar":580541,"anurl":"https://icen-berg.space/images/arctic/NISE_SSMISF17_20090817.png","arurl":"https://icen-berg.space/images/antarctic/NISE_SSMISF17_20090817.png"};
+    if(imgOne!=null){
     imgOne.src = data.arurl;
     imgTwo.src = data.anurl;
+  }
     output.innerHTML = date.toLocaleDateString(); // Display the default slider value
     // Update the current slider value (each time you drag the slider handle)
     slider.oninput = function() {
@@ -51,8 +53,13 @@
           if (this.readyState == 4 && this.status == 200) {
            //document.getElementById("demo").innerHTML = this.responseText;
             data = JSON.parse(this.responseText);
-            imgOne.src = data.arurl;
-            imgTwo.src = data.anurl;
+          if(imgOne!=null){
+              imgOne.src = data.arurl;
+              imgTwo.src = data.anurl;
+            }
+
+            threedImage = data.arurl;
+            image(threedImage);
           }
         };
         xhttp.open("GET", "data?date="+this.value, true);

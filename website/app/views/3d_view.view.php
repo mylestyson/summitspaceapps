@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Icen-Berg first three.js app</title>
-	<style>
-	body { margin: 0; }
-	canvas { width: 100%; height: 100% }
-	</style>
-</head>
-<body>
+<?php require('partials/head.php');?>
 	<script src="public/js/three.js"></script>
 		<script src="public/js/OrbitControls.js"></script>
 	<script>
@@ -24,7 +15,8 @@
 	var mesh;
 
 	init();
-	image('https://i.imgur.com/Si4k0Ok.png');
+	var threedImage = 'https://i.imgur.com/Si4k0Ok.png';
+	image(threedImage);
 
 
 
@@ -121,6 +113,7 @@
 		var wmat = new THREE.MeshBasicMaterial( {color: 0x006994, side: THREE.DoubleSide} );
 		var w = new THREE.Mesh( wg, wmat );
 		w.rotation.x = -Math.PI / 2;
+		w.position.y = -5;
 		scene.add( w);
 		animate();
 	}
@@ -132,5 +125,4 @@
 	}
 
 	</script>
-</body>
-</html>
+<?php require('partials/footer_slider.php');?>

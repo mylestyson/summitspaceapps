@@ -21,6 +21,11 @@ class PagesController
       $grain = $_GET['date'];
       return view('data',$grain);
   }
+  public function threed_view()
+  {
+
+      return view('3d_view');
+  }
 
 
 }

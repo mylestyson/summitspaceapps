@@ -8,9 +8,8 @@
         <ul class="nav navbar-nav">
           <li class="active"><a href="/">Home</a></li>
           <li><a href="/about">About</a></li>
-          <li><a href="/3d_view.html">3D Visualisation</a></li>
-          <li><a href="/">AR Visualisation</a></li>
-          <li><a href="/2d_view">2D Dashboard</a></li>
+          <li><a href="/3d_view">3D Visualisation</a></li>
+          <li><a href="/2d_view">2D Visualisation</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="https://2018.spaceappschallenge.org/">Space Apps 2018</a></li>
