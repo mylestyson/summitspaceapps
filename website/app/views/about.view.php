@@ -7,22 +7,27 @@
   </div>
   <div class="row">
     <div class="col-8 text-left">
-      <h2>Ben</h2>
+      <h2>Ben Wooff</h2>
       <p>Support team lead at Summit, the sarcasam has no off switch.</p>
-    </div>
-    <div class="col-4">
-      <img src="public/img/globe.png" width=200 height=200 />
     </div>
   </div>
   <div class="row">
-    <div class="col-4">
-      <img src="public/img/globe.png" width=200 height=200 />
-    </div>
     <div class="col-8 text-left">
-      <h2>James</h2>
+      <h2>James Dewes</h2>
       <p>Head of Data Integrations and Solutions at Summit, not too bad with the old HTML.</p>
     </div>
-
+  </div>
+  <div class="row">
+    <div class="col-8 text-left">
+      <h2>Myles Tyson</h2>
+      <p>Computer Science Student / Software dev</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-8 text-left">
+      <h2>Rhys Tyson</h2>
+      <p>Computer Science Student / Game Dev</p>
+    </div>
   </div>
 </div>
 
