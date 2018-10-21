@@ -5,8 +5,8 @@ import pandas as pd
 
 
 def main():
-   inPath = "data" + "\\" + "csv"
-   outPath = "data" + "\\" + "smallcsv"
+   inPath = "antartic-data" + "\\" + "csv"
+   outPath = "antartic-data" + "\\" + "smallcsv"
    names = []
    for file in os.listdir(inPath):
       with open(os.path.join(inPath, file),'r') as csv_file:
