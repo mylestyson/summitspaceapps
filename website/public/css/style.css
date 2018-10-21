@@ -10,10 +10,12 @@ body {
 }
 .footer-slider {
     position: fixed;
-    height: 100px;
+    height: 80px;
     bottom: 0;
     width: 100%;
-    background-color: white;
+    background-color: #3380b7;
+    color:white;
+    padding-top:10px;
 }
 .footer {
   position: absolute;

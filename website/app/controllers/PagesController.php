@@ -15,6 +15,12 @@ class PagesController
   {
     return view('2d_view');
   }
+  public function data()
+  {
+      //die(var_dump($_GET['date']));
+      $grain = $_GET['date'];
+      return view('data',$grain);
+  }
 
 
 }
