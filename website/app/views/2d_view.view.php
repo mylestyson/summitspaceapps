@@ -21,7 +21,7 @@
             <table class="table table-striped table-sm">
               <thead>
                 <tr>
-                  <th>#</th>
+                  <th>Type </th>
                   <th>Header</th>
                   <th>Header</th>
                   <th>Header</th>

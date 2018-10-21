@@ -1,8 +1,8 @@
 <!-- Fixed navbar -->
-  <nav class="navbar navbar-default navbar-fixed-top">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-        <a class="navbar-brand" href="/">Icen-berg</a>
+        <a class="navbar-brand btn-primary" href="/" style="color:white;">Icen-berg</a>
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
@@ -12,9 +12,9 @@
           <li><a href="/">AR Visualisation</a></li>
           <li><a href="/2d_view">2D Dashboard</a></li>
         </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="https://2018.spaceappschallenge.org/">Space Apps 2018</a></li>
-          <li><a href="http://www.c4di.co.uk/nasa/">C4DI</a></li>
+        <ul class="nav navbar-nav navbar-right btn-primary">
+          <li><a href="https://2018.spaceappschallenge.org/"  style="color:white;">Space Apps 2018</a></li>
+          <li><a href="http://www.c4di.co.uk/nasa/" style="color:white;">C4DI</a></li>
         </ul>
       </div>
     </div>

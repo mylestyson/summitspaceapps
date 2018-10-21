@@ -35,11 +35,11 @@ def csvToImage(file):
                 color = (c,c,c)
                 img.putpixel( (i,j), color )
 
-    img.save(os.path.join("antarctic-data", "images", currentFileName + ".png"))
+    img.save(os.path.join("artic-data", "images", currentFileName + ".png"))
     count = count + 1
 
 
-for filename in os.listdir(os.path.join("antarctic-data", "csv")):
+for filename in os.listdir(os.path.join("artic-data", "csv")):
     if filename.endswith(".csv"):
         currentFileName = filename.strip(".csv")
-        csvToImage(os.path.join("antarctic-data", "csv", filename))
+        csvToImage(os.path.join("artic-data", "csv", filename))
