@@ -1,4 +1,5 @@
-<?php require('partials/head.php');?>
+<?php
+require('partials/head.php');?>
 <div class="container">
   <div class="jumbotron">
     <div class="container">

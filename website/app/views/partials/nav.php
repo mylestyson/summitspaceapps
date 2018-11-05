@@ -6,7 +6,6 @@
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="/">Home</a></li>
           <li><a href="/about">About</a></li>
           <li><a href="/3d_view">3D Visualisation</a></li>
           <li><a href="/2d_view">2D Visualisation</a></li>
