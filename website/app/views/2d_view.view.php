@@ -3,7 +3,7 @@
           <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
           <div class="row">
             <div class="col-md-5">
-              <h2>Artic</h2>
+              <h2>Arctic</h2>
               <img src="" alt="" id="imageOne" width="400px" height="400px">
             </div>
             <div class="col-md-2">
