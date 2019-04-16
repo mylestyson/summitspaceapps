@@ -1,4 +1,5 @@
 <?php require('partials/head.php');?>
+	<h1>Antarctic</h1>
 	<script src="public/js/three.js"></script>
 		<script src="public/js/OrbitControls.js"></script>
 	<script>
